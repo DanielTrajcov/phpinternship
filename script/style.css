@@ -1,0 +1,20 @@
+.form-container {
+    display: none;
+}
+.form-container.active {
+    display: block;
+}
+.accent {
+    color:#0f9;
+}
+.bg-accent {
+    background-color:#0f9;
+}
+.shadow-accent {
+    box-shadow: 0px 4px 10px #0f9;
+}
+
+body {
+    color:#fff;
+    background-color: #1c1c22;
+}
