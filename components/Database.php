@@ -27,7 +27,16 @@ class Database {
           PRIMARY KEY (`id`),
           UNIQUE KEY `name` (`name`)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci";
-        $this->conn->query($createCategoriesTable);
+    $this->conn->query($createCategoriesTable);
+    
+    // Insert data into the categories table
+    $insertCategoriesData = "
+        INSERT INTO `categories` (`name`) VALUES
+        ('Makes Work Fun'),
+        ('Team Player'),
+        ('Culture Champion'),
+        ('Difference Maker')";
+    $this->conn->query($insertCategoriesData);
 
         // Create `users` table
         $createUsersTable = "
