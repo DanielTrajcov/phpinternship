@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax'])) {
 <nav class="text-2xl">
   <div class="max-w-7xl mx-auto px-2 sm:px-8 lg:px-6">
     <div class="relative flex items-center justify-between h-16 ">
-        <a href="#" class="text-white  font-bold">
+        <a href="#" class="text-white  text-3xl font-bold">
           Vote<span class="accent">Hub</span>
         </a>
 
